@@ -20,7 +20,7 @@ var User = mongoose.model('User', UserSchema);
 [
     ['Administrator', 'admin', 'admin'],
     ['User', 'user', 'user'],
-    ['Jules', 'bad', 'motherfucker']
+    ['Jules', 'bad', 'mfer']
 ].forEach(function(cred) {
     var instance = new User();
 
